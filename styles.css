@@ -1,9 +1,4 @@
 
-title {
-    background-color: black;
-    color:blue;
-}
-
 
 
 
@@ -12,6 +7,9 @@ body {
     margin: 0px;
 }
 
+.header {
+    display: inline;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -36,10 +34,27 @@ text-decoration: none;
     display: block;
 }
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     width: 100%;
     background-color:black;
     color: white;
     text-align: center;
+ }
+ .product-box {
+     display: flex;
+     padding: 20px 20px;
+     /* border: #333 solid 2px; */
+     margin: 20px 20px;
+     width: 90%;
+ }
+ .container {
+     border: 2px black solid ;
+     text-align: center;
+     background-color: blanchedalmond;
+ }
+ .featured-title {
+     background-color: gray;
+     color: white;
+     margin: 20px;
  }
